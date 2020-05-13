@@ -1,0 +1,102 @@
+/** @format */
+
+Navbar>.container {
+  width: auto;
+}
+
+.container a {
+  color: #FFF !important;
+}
+
+.container a:hover {
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+.container .head-header a {
+  font-size: 18px;
+}
+
+.container .head-header a:hover {
+  color: aqua !important;
+}
+
+#navLinkHome,
+#navLinkProject,
+.container a,
+.drop {
+  width: 100%;
+  margin: auto 8%;
+  color: #fff !important;
+  font-size: 16px;
+  /* margin-left: 3%; */
+  text-align: center;
+  transition: 0.5s;
+}
+
+#navLinkHome:hover,
+#navLinkProject:hover {
+  color: aqua !important;
+  text-decoration: none;
+}
+
+#navLinkContact {
+  width: 60%;
+  padding: 6%;
+  color: #fff !important;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #18a4b9;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+#navLinkContact:hover {
+  color: black !important;
+  background-color: #18a4b9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navLinkHome.active,
+#navLinkProject.active,
+.container a.active {
+  color: #28bdd4 !important;
+}
+
+#navLinkContact.active {
+  background-color: #18a4b9;
+  color: #fff !important;
+}
+
+.custom-switch {
+  width: 80%;
+  padding: 2% auto 2% auto;
+  margin: 2% auto 2% auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #navLinkHome,
+  #navLinkProject,
+  .container a,
+  .drop {
+    width: 100%;
+    margin: 2% auto;
+  }
+
+  #navLinkContact {
+    width: 60%;
+    padding: 2%;
+    margin: 2% auto;
+  }
+
+  .custom-switch {
+    width: 50%;
+    padding: 2% auto 2% auto;
+    margin: 2% auto 2% auto;
+  }
+
+}

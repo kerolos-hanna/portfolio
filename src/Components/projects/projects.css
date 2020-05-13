@@ -1,0 +1,127 @@
+/** @format */
+
+.projects-header {
+  text-align: center;
+  margin-top: 5%;
+  color: #343a40;
+  font-weight: bold;
+  font-family: 'eurostile', sans-serif;
+  font-size: 40px;
+}
+
+.line {
+  display: block;
+  width: 80px;
+  height: 4px;
+  margin: 0.5% auto 5% auto;
+  background-color: #138496;
+}
+
+.project-content-1 {
+  display: flex;
+  margin-top: 5%;
+}
+
+.projects {
+  width: 32%;
+  float: left;
+  position: relative;
+  padding: 1.1%;
+}
+
+.middle {
+  margin: 0 2%;
+}
+
+.layer-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.822);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.projects:hover .layer-content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.layer-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70%;
+}
+
+.project-name {
+  display: block;
+  margin-bottom: 2%;
+  color: #fff;
+  text-transform: capitalize;
+  position: relative;
+  top: 28px;
+  transition: top 0.5s;
+  transition-delay: 0.1s;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.layer-content-title {
+  color: #189eb3;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 2%;
+  position: relative;
+  top: 28px;
+  transition: top 0.5s;
+  transition-delay: 0.2s;
+}
+
+.layer-info Button {
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  top: 38px;
+  transition: top 0.5s;
+  transition-delay: 0.3s;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.projects:hover .layer-info .project-name,
+.projects:hover .layer-content-title,
+.projects:hover .layer-info Button {
+  top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects-header {
+    font-size: 30px;
+  }
+
+  .project-content-1 {
+    display: grid;
+    width: 100%;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .middle {
+    margin: 2% 0%;
+  }
+
+  .layer-info Button {
+    top: 30px;
+  }
+
+}

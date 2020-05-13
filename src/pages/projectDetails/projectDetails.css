@@ -1,0 +1,45 @@
+.project-details {
+  overflow: hidden;
+}
+
+.project-details-header {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.project-details-header h1 {}
+
+.Button {
+  margin-bottom: 5%;
+}
+
+.Button Button {
+  width: 20%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .project-details {
+    height: 180vh;
+  }
+
+  .project-details-header {
+    margin-top: 19%;
+    text-align: center;
+  }
+
+  .Button Button {
+    width: 50%;
+    margin: 4% auto;
+  }
+
+  .img-details {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Image Image {
+    width: 100%;
+  }
+}
