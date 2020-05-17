@@ -14,11 +14,11 @@ import './header.css';
 class header extends Component{
 
   state = {
-    dark: true
+    dark: true,
   }
-  darkChangehandler = () => {
+  darkChangehandler = (e) => {
     this.setState({
-      dark: !this.state.dark
+      dark: !this.state.dark,
     })
   }
 
@@ -59,6 +59,7 @@ class header extends Component{
                   type="switch"
                   id="custom-switch"
                   label="Dark mode"
+                  checked={this.props.dark}
                   onChange={this.darkChangehandler}
                   onClick={() => this.props.onDarkHandler(this.state.dark)}
                 />
