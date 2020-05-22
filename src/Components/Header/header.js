@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-scroll';
 import { Link as Route } from 'react-router-dom';
 import { connect } from 'react-redux';
-
+import darkHandler from '../../Store/Action/action';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -16,6 +16,7 @@ class header extends Component{
   state = {
     dark: true,
   }
+  
   darkChangehandler = (e) => {
     this.setState({
       dark: !this.state.dark,
@@ -32,7 +33,7 @@ class header extends Component{
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Route to="/">
+            <Route to="/" id="navLinkHome">
               Home
             </Route>
 
@@ -80,7 +81,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return{
-    onDarkHandler: (dark) => dispatch({type: "dark", value: dark})
+    onDarkHandler: (dark) => dispatch(darkHandler(dark))
   }
 }
 
