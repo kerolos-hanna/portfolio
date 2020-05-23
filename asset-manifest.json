@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c1a350be.chunk.css",
+    "main.js": "/portfolio/static/js/main.953fdeaf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.953fdeaf.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.2a7b4a38.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.2a7b4a38.js.map",
+    "static/css/2.de424728.chunk.css": "/portfolio/static/css/2.de424728.chunk.css",
+    "static/js/2.608c044f.chunk.js": "/portfolio/static/js/2.608c044f.chunk.js",
+    "static/js/2.608c044f.chunk.js.map": "/portfolio/static/js/2.608c044f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.c84634556162fd03417fa94905666101.js": "/portfolio/precache-manifest.c84634556162fd03417fa94905666101.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/portfolio/static/css/2.de424728.chunk.css.map",
+    "static/css/main.c1a350be.chunk.css.map": "/portfolio/static/css/main.c1a350be.chunk.css.map",
+    "static/js/2.608c044f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.608c044f.chunk.js.LICENSE.txt",
+    "static/media/audio.png": "/portfolio/static/media/audio.290205c6.png",
+    "static/media/ecom1.png": "/portfolio/static/media/ecom1.6a24c67b.png",
+    "static/media/ecom2.png": "/portfolio/static/media/ecom2.c09411c6.png",
+    "static/media/ecom3.png": "/portfolio/static/media/ecom3.3e7b78f3.png",
+    "static/media/ecom4.png": "/portfolio/static/media/ecom4.864d482e.png",
+    "static/media/me3.jpg": "/portfolio/static/media/me3.b2bc8a0a.jpg",
+    "static/media/pro1.jpg": "/portfolio/static/media/pro1.cb1bd24d.jpg",
+    "static/media/pro2.jpg": "/portfolio/static/media/pro2.5d6ebc18.jpg",
+    "static/media/pro3.jpg": "/portfolio/static/media/pro3.b883662f.jpg",
+    "static/media/web1.png": "/portfolio/static/media/web1.b7ab5fe5.png",
+    "static/media/web2.png": "/portfolio/static/media/web2.62e9f73d.png",
+    "static/media/web3.png": "/portfolio/static/media/web3.5f07c658.png",
+    "static/media/web4.png": "/portfolio/static/media/web4.e7bf065f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a7b4a38.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.608c044f.chunk.js",
+    "static/css/main.c1a350be.chunk.css",
+    "static/js/main.953fdeaf.chunk.js"
+  ]
+}
