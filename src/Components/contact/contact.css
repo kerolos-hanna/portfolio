@@ -29,12 +29,14 @@
 }
 
 .social-icons .facebook {
-  margin-right: 15%;
-  margin-left: 25%;
+  text-align: left;
+  width: 50%;
 }
 
 .social-icons .linkedin {
-  margin-right: 15%;
+  /* margin-right: 15%; */
+  text-align: left;
+  width: 50%;
 }
 
 .social-icons .linkedin a {
@@ -65,11 +67,13 @@
   }
 
   .social-icons .facebook {
-    margin-right: 22%;
-    margin-left: 0%;
+    /* margin-right: 22%;
+    margin-left: 0%; */
+    width: 50%;
   }
 
   .social-icons .linkedin {
-    margin-right: 22%;
+    /* margin-right: 22%; */
+    width: 50%;
   }
 }

@@ -28,12 +28,12 @@ class header extends Component{
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
         <div className="container">
         <Navbar.Brand className="head-header">
-          <Route to="/">Kerolos Hanna</Route>
+          <Route to="/portfolio">Kerolos Hanna</Route>
         </Navbar.Brand> 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Route to="/" id="navLinkHome">
+            <Route to="/portfolio" id="navLinkHome">
               Home
             </Route>
 
