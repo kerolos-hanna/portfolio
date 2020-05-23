@@ -16,7 +16,7 @@ class App extends Component {
               {/* <Main /> */}
             </header>
           <Switch>
-            <Route path="/portfolio" exact component={Main}/>
+            <Route path="/" exact component={Main}/>
             <Route path="/project-details" component={projectDetails}/>
           </Switch>
         </Router>
