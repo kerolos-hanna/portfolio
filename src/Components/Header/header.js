@@ -40,7 +40,7 @@ class header extends Component{
             <Link 
             id = "navLinkProject"
             spy={true}
-            offset={0} duration={500}
+            offset={-90} duration={500}
             to="project"
             smooth={true}  
             href="#project" 
@@ -49,7 +49,7 @@ class header extends Component{
             <Link 
             id = "navLinkContact"
             spy={true}
-            offset={-10} duration={500}
+            offset={-50} duration={500}
             to = "contact"
             smooth={true}
             href = "#contact"
