@@ -10,10 +10,10 @@ import './contact.css';
 class contact extends Component{
   render(){
     return (
-      <div className="bkground-contact" > 
+      <div className="bkground-contact"> 
         <div className="padding-y" id="contact">
           <div className="container-contact">
-            <h1 className="contact-header">contact me</h1>
+            <h1 className="contact-header">Contact me</h1>
             <span className="line"></span>
             <Form>
               <Form.Row>

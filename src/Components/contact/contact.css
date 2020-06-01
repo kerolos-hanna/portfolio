@@ -26,7 +26,7 @@
 .social-icons {
   display: flex;
   font-size: 55px;
-  padding: 4%;
+  padding: 2% 4% 0 4%;
 }
 
 .social-icons .facebook {

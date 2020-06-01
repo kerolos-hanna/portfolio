@@ -10,7 +10,7 @@ import './App.css';
 class App extends Component {
   render(){
     return (
-      <div className="App" style={{backgroundColor: (this.props.dark)? "black": ""}}>
+      <div className="App" style={{backgroundColor: (this.props.dark)? "#18191A": ""}}>
         <Router>
             <header className="App-header">
               {/* <Main /> */}

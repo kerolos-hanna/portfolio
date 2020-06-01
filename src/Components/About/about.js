@@ -12,8 +12,8 @@ class about extends Component{
       <div className="padding-y" id="home">
         <h1 
         className="about-header" 
-        style={{color: (this.props.dark)? "#e4e4e4": ""}}>Front-end Developer</h1>
-        <p className="about-dis" style={{color: (this.props.dark)? "#e4e4e4": ""}}>
+        style={{color: (this.props.dark)? "#eee": ""}}>Front-end Developer</h1>
+        <p className="about-dis" style={{color: (this.props.dark)? "#eee": ""}}>
           I design and code beautifully simple things, and I love what I do.
         </p>
         <div className="about-img">

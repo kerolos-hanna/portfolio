@@ -40,20 +40,19 @@ class header extends Component{
             <Link 
             id = "navLinkProject"
             spy={true}
-            offset={-90} duration={500}
+            offset={-68} duration={500}
             to="project"
             smooth={true}  
-            href="#project" 
             >Project</Link>
 
             <Link 
             id = "navLinkContact"
             spy={true}
-            offset={-50} duration={500}
+            offset={-60} duration={500}
             to = "contact"
             smooth={true}
-            href = "#contact"
             >Contact</Link>
+
             <DropdownButton 
             className="drop" id="dropdown-basic-button" title="" variant="info" alignRight>
                 <Form.Check 

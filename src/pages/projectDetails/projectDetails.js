@@ -70,8 +70,8 @@ class projectDetails extends Component{
     /*check if I have a props or not */
     const header = (localStorage.props)? 
       <React.Fragment>
-        <h1 style={{color: (this.props.dark)? "#e4e4e4": ""}}>{localStorage.props}</h1>
-        <p style={{color: (this.props.dark)? "#e4e4e4": ""}}>
+        <h1 style={{color: (this.props.dark)? "#eee": ""}}>{localStorage.props}</h1>
+        <p style={{color: (this.props.dark)? "#eee": ""}}>
           using Html, css and javascript
         </p>
       </React.Fragment> : <Alert variant="danger">Please select a project first!</Alert>

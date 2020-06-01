@@ -18,7 +18,7 @@ class projects extends Component{
           <div className="projects-content">
             <h1 
             className="projects-header" 
-            style={{color: (this.props.dark)? "#e4e4e4": ""}}>My Recent Work</h1>
+            style={{color: (this.props.dark)? "#eee": ""}}>My Recent Work</h1>
             <span className="line"></span>
             <div className="project-content-1">
               <div className="projects">
