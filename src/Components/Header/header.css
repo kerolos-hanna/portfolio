@@ -49,6 +49,7 @@ Navbar>.container {
   text-align: center;
   border: 2px solid #18a4b9;
   border-radius: 15px;
+  box-sizing: border-box;
   font-size: 85%;
   font-weight: bold;
   transition: 0.5s;

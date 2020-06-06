@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import Typed from 'typed.js';
 
 import Image from 'react-bootstrap/Image';
 import img from '../../assets/Images/me3.jpg';
@@ -7,6 +8,26 @@ import img from '../../assets/Images/me3.jpg';
 import './about.css';
 
 class about extends Component{
+
+  componentDidMount() {
+    const strings = ["<strong>Skills:</strong>", "HTML", "CSS", "JavaScript (ES6)", "Bootstrap", "Angular 2+", "React js", "Redux", "I design and code beautifully simple things, and I love what I do"];
+    const options = {
+      strings: strings,
+      typeSpeed: 50,
+      backSpeed: 70,
+      smartBackspace: true,
+      backDelay: 700,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true,
+    }
+    this.typed = new Typed(this.el, options);
+  }
+
+  componentWillUnmount() {
+    this.typed.destroy();
+  }
+
   render(){
     return(
       <div className="padding-y" id="home">
@@ -14,10 +35,11 @@ class about extends Component{
         className="about-header" 
         style={{color: (this.props.dark)? "#eee": ""}}>Front-end Developer</h1>
         <p className="about-dis" style={{color: (this.props.dark)? "#eee": ""}}>
-          I design and code beautifully simple things, and I love what I do.
+          <span ref={(el) => { this.el = el; }}></span>
         </p>
         <div className="about-img">
-          <Image style={{width: "250px", height: "250px"}} src={img} alt="me" roundedCircle />
+          <Image 
+            style={{width: "250px", height: "250px", boxShadow:(this.props.dark)? "0px 0px 20px #eee" : "0px 0px 30px #138496"}} src={img} alt="me" roundedCircle />
         </div>
         <div className="about-me">
           <div className="about-me-content">

@@ -17,9 +17,9 @@ class header extends Component{
     dark: true,
   }
   
-  darkChangehandler = (e) => {
-    this.setState({
-      dark: !this.state.dark,
+  darkChangehandler = () => {
+    this.setState((prevState) => {
+      return {dark: !prevState.dark}
     })
   }
 
@@ -38,23 +38,23 @@ class header extends Component{
             </Route>
 
             <Link 
-            id = "navLinkProject"
-            spy={true}
-            offset={-68} duration={500}
-            to="project"
-            smooth={true}  
-            >Project</Link>
+              id = "navLinkProject"
+              spy={true}
+              offset={-68} duration={500}
+              to="project"
+              smooth={true}  
+              >Project</Link>
 
             <Link 
-            id = "navLinkContact"
-            spy={true}
-            offset={-60} duration={500}
-            to = "contact"
-            smooth={true}
-            >Contact</Link>
+              id = "navLinkContact"
+              spy={true}
+              offset={-60} duration={500}
+              to = "contact"
+              smooth={true}
+              >Contact</Link>
 
             <DropdownButton 
-            className="drop" id="dropdown-basic-button" title="" variant="info" alignRight>
+              className="drop" id="dropdown-basic-button" title="" variant="info" alignRight>
                 <Form.Check 
                   type="switch"
                   id="custom-switch"

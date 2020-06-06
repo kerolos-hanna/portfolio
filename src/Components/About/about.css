@@ -1,97 +1,102 @@
+/** @format */
+
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .padding-y {
-  padding: 3% 0;
+	padding: 3% 0;
 }
 
-
 .about-header {
-  text-align: center;
-  margin-top: 8%;
-  color: #343A40;
-  font-weight: bold;
-  font-family: "eurostile", sans-serif;
-  font-size: 45px;
+	text-align: center;
+	margin-top: 8%;
+	color: #343a40;
+	font-weight: bold;
+	font-family: 'eurostile', sans-serif;
+	font-size: 45px;
 }
 
 .about-dis {
-  text-align: center;
-  font-size: 25px;
-  color: #222222;
+	text-align: center;
+	font-size: 25px;
+	color: #222222;
 }
 
 .about-img {
-  margin-top: 5%;
-  text-align: center;
+	margin-top: 5%;
+	text-align: center;
 }
 
 .about-me {
-  margin-top: 8%;
-  background-color: #138496;
-  padding: 2%;
-  text-align: center;
-  /* width: 100vw; */
+	margin-top: 8%;
+	background-color: #138496;
+	padding: 2%;
+	text-align: center;
+	/* width: 100vw; */
 }
 
 .about-me-content {
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 5%;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5%;
 }
 
 .about-me .about-me-content h1 {
-  font-family: "eurostile", sans-serif;
-  font-weight: bold;
-  color: #ffffff;
-  margin-bottom: 2%;
-  font-size: 45px;
+	font-family: 'eurostile', sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 2%;
+	font-size: 45px;
 }
 
 .about-me .about-me-content p {
-  color: #ffffff;
-  width: 70%;
-  margin: auto;
-  margin-bottom: 2%;
+	color: #ffffff;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 2%;
 }
 
 .about-me .about-me-content p span {
-  font-weight: bold;
-  display: block;
-  text-align: left;
-  color: #222222;
-  text-decoration: underline;
-  margin-bottom: 2%;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	color: #222222;
+	text-decoration: underline;
+	margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 768px) {
-  .about-header {
-    font-size: 30px;
-    margin-top: 25%;
-  }
+	.about-header {
+		font-size: 30px;
+		margin-top: 25%;
+	}
 
-  .about-dis {
-    font-size: 18px;
-    width: 95%;
-  }
+	.about-dis {
+		font-size: 18px;
+		width: 95%;
+	}
 
-  .about-me {
-    margin-top: 30%;
-  }
+	.about-img {
+		margin-top: 10%;
+	}
 
-  .about-me-content {
-    margin-top: 8%;
-    width: 95%;
-  }
+	.about-me {
+		margin-top: 33%;
+	}
 
-  .about-me .about-me-content h1 {
-    font-size: 30px;
-  }
+	.about-me-content {
+		margin-top: 8%;
+		width: 95%;
+	}
 
-  .about-me .about-me-content p {
-    width: 100%;
-    margin-bottom: 6%;
-  }
+	.about-me .about-me-content h1 {
+		font-size: 30px;
+	}
+
+	.about-me .about-me-content p {
+		width: 100%;
+		margin-bottom: 6%;
+	}
 }
