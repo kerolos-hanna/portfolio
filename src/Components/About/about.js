@@ -10,7 +10,7 @@ import './about.css';
 class about extends Component{
 
   componentDidMount() {
-    const strings = ["<strong>Skills:</strong>", "HTML", "CSS", "JavaScript (ES6)", "Bootstrap", "Angular 2+", "React js", "Redux", "I design and code beautifully simple things, and I love what I do"];
+    const strings = ["<strong>Skills</strong>", "HTML", "CSS","Bootstrap", "JavaScript (ES6)", "TypeScript", "Angular 2+", "React js", "Redux", "I design and code beautifully simple things, and I love what I do"];
     const options = {
       strings: strings,
       typeSpeed: 50,
