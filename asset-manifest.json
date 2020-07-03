@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f8b479b1.chunk.css",
+    "main.css": "/portfolio/static/css/main.1da2026c.chunk.css",
     "main.js": "/portfolio/static/js/main.067d98aa.chunk.js",
     "main.js.map": "/portfolio/static/js/main.067d98aa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.2a7b4a38.js",
@@ -9,10 +9,10 @@
     "static/js/2.72cec845.chunk.js": "/portfolio/static/js/2.72cec845.chunk.js",
     "static/js/2.72cec845.chunk.js.map": "/portfolio/static/js/2.72cec845.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.30563ecb5164beb78bfd3e6a58f9b077.js": "/portfolio/precache-manifest.30563ecb5164beb78bfd3e6a58f9b077.js",
+    "precache-manifest.4d2e6d9247d3c73e2f341396f0c72256.js": "/portfolio/precache-manifest.4d2e6d9247d3c73e2f341396f0c72256.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/portfolio/static/css/2.de424728.chunk.css.map",
-    "static/css/main.f8b479b1.chunk.css.map": "/portfolio/static/css/main.f8b479b1.chunk.css.map",
+    "static/css/main.1da2026c.chunk.css.map": "/portfolio/static/css/main.1da2026c.chunk.css.map",
     "static/js/2.72cec845.chunk.js.LICENSE.txt": "/portfolio/static/js/2.72cec845.chunk.js.LICENSE.txt",
     "static/media/Kerolos-Hanna-CV.pdf": "/portfolio/static/media/Kerolos-Hanna-CV.80dd2a6a.pdf",
     "static/media/me3.jpg": "/portfolio/static/media/me3.b2bc8a0a.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.2a7b4a38.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.72cec845.chunk.js",
-    "static/css/main.f8b479b1.chunk.css",
+    "static/css/main.1da2026c.chunk.css",
     "static/js/main.067d98aa.chunk.js"
   ]
 }
