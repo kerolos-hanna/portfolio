@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a25398114cf25a79e16ff02e0229b007",
+    "revision": "1357672447b678e01442ae80551abbde",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5dbca1736bef00fd6661",
+    "revision": "0248c814531ad144f493",
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "391008cacb0936d8b401",
-    "url": "/portfolio/static/css/main.2afddeaa.chunk.css"
+    "revision": "3adedb87cfe56d5e242a",
+    "url": "/portfolio/static/css/main.5e7e9deb.chunk.css"
   },
   {
-    "revision": "5dbca1736bef00fd6661",
-    "url": "/portfolio/static/js/2.017b7c83.chunk.js"
+    "revision": "0248c814531ad144f493",
+    "url": "/portfolio/static/js/2.72cec845.chunk.js"
   },
   {
     "revision": "f00d093caaa8ffdc0d6acd94ebc345e2",
-    "url": "/portfolio/static/js/2.017b7c83.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.72cec845.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "391008cacb0936d8b401",
-    "url": "/portfolio/static/js/main.a9adfcec.chunk.js"
+    "revision": "3adedb87cfe56d5e242a",
+    "url": "/portfolio/static/js/main.067d98aa.chunk.js"
   },
   {
     "revision": "c93ab1f20ab9e5c7717b",
     "url": "/portfolio/static/js/runtime-main.2a7b4a38.js"
+  },
+  {
+    "revision": "80dd2a6a0c44f77779e4c68cc6d28b5e",
+    "url": "/portfolio/static/media/Kerolos-Hanna-CV.80dd2a6a.pdf"
   },
   {
     "revision": "b2bc8a0abcdb0368ca7d51ce83d5459d",
